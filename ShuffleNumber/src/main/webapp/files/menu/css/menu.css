@@ -1,0 +1,272 @@
+
+ 
+#myInputDevice {
+
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px 15px;
+  width:150px;
+  height:30px;
+  border: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+  border-radius:8px;
+  background-color:#0080ff;
+  color:white;
+}
+ 
+  #logo{
+
+ margin-top:18px;
+
+ 
+ } 
+ #logo1{
+/*  margin-left:400px; */
+ height:100%;
+/*  margin-top:-32px; */
+ width:100%;
+ background: url(../../../images/background.jpg);
+ background-size:100% 100%;
+ position:absolute;
+ 
+ }
+
+/*-- Header Part Starts Here --*/
+.header{
+	width:100%;
+	background: #eaeceb03; 
+	padding: 0.2em 0;
+	margin-top:1px;
+	
+}
+
+.navigation{
+	width: 100%;
+	text-align: center;
+}
+.banner-top {
+	width: 100%;
+	float: right;
+	margin-left:140px;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+ul.navig{
+	padding: 0;
+	width: 99%;
+	float: left;
+	margin: 0 0 0;
+	text-align: center;
+}
+ul.navig li{
+	display: inline-block;
+	margin:0 0px;
+}
+ul.navig li a{
+	text-transform:uppercase;
+	font-size:5em;
+	color:#808080;
+	font-weight:700;
+}
+ul.navig li a:acivet{
+	
+	color:white;
+	
+}
+ul.navig li a:hover{
+	color:#838383;
+}
+
+.banner-bot{
+	padding:4em 0;
+	text-align:center;
+}
+.banner-bot h2{
+	font-size:4em;
+	font-weight:700;
+	margin:0em 0 0.5em 0;
+}
+.banner-bot p{
+	font-size:1.1em;
+	font-weight:500;
+	line-height:1.8em;
+	margin:0 0 0.5em;
+}
+.banner-bot p:nth-of-type(2){
+	font-weight:100;
+	font-size:0.875em;
+	margin-bottom:2em;
+}
+.banner-bot a{
+	font-size:2em;
+	text-transform:uppercase;
+	font-weight:700;
+}
+nav a , ul.navig a{
+	position: relative;
+	display: inline-block;
+/* 	margin: 0px 0px 10px; */
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+nav a:hover,
+nav a:focus, ul.navig a:hover, ul.navig a:focus {
+	outline: none;
+}
+
+/*-- Header Part Ends Here --*/
+
+
+
+span.menu {
+	display: none;
+}
+/*-- responsive-design starts-here --*/
+
+@media screen and (max-width: 1366px) {
+	
+	.banner {
+		min-height: 10px;
+		width:100%;
+	}
+	.inner-banner {
+		min-height: 260px;
+	}
+	
+}
+@media screen and (max-width: 1280px) {
+	
+	.banner {
+		min-height: 65px;
+		width:100%;
+	}
+	.inner-banner {
+		min-height: 240px;
+	}
+	
+}
+@media screen and (max-width: 1024px) {
+	
+	.banner-top {
+		width: 56%;
+	}
+	.banner {
+		min-height: 5px;
+	}
+	.inner-banner {
+		min-height: 200px;
+	}
+	.banner h1 {
+		font-size: 2.5em;
+	}
+	.banner-info p {
+		font-size: 0.875em;
+	}
+	.banner-info {
+		padding: 1em 0 1em 1.5em;
+		width: 57%;
+		margin-top: 12em;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	span.menu {
+	    display: block;
+		cursor: pointer;
+		float: none;
+		margin: 3px auto 0em auto;
+		width: 10%;
+		background-color: #000;
+		color: #fff;
+		text-align: center;
+		padding: 6px;
+		font-size: 16px;
+		font-weight: 500;
+		position: relative;
+	}
+
+	.banner h1 {
+		font-size: 2em;
+	}
+	.banner-info {
+		padding: 1em 0 1em 1em;
+		width: 75%;
+		margin-top: 8em;
+	}
+	.banner {
+		min-height: 10px;
+	}
+	
+}	
+@media screen and (max-width: 640px) {
+	
+	.header {
+		padding: 1em 0 0.6em 0;
+	}
+	.banner {
+		min-height: 5px;
+	}
+	.banner h1 {
+		font-size: 1.6em;
+	}
+	.banner-info {
+		padding: 0.5em 0 1em 1em;
+		width: 90%;
+		margin-top: 5em;
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	span.menu {
+		width: 17%;
+		padding: 4px;
+		font-size: 14px;
+	}
+	
+	.header {
+		padding: 0.8em 0 0.4em 0;
+	}
+	.banner {
+		min-height: 10px;
+	}
+	.banner-info p {
+		font-size: 0.75em;
+	}
+	
+}
+@media screen and (max-width: 320px) {
+	span.menu {
+		width: 100%;
+		padding:5px;
+		margin: 50px auto 0em auto;
+	}
+
+	.banner h1 {
+		font-size: 1.3em;
+	}
+	.banner-info {
+		padding: 0.7em 0.8em 1em 0.5em;
+		width: 95%;
+		margin-top: 2em;
+	}
+	.banner {
+		min-height: 10px;
+	}
+	figure.float-left {
+		margin-right: 0;
+		width: 100%;
+	}
+	
+	ul.start li a, ul.start li span {
+		padding: 0.4em 0.2em;
+		font-size: 0.8em;
+	}
+	
+}

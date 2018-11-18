@@ -1,0 +1,106 @@
+/* body{
+	overflow-y:auto;
+} */
+#board{
+ color:black;
+	font-family: 'Cookie';
+	border-radius:40%;
+	font-size:30px;
+
+	
+} 
+ #board:hover{
+ background-color:#ff8080;
+	font-family: 'Cookie';
+   width:300px;
+  cursor:pointer;
+	 /* text-transform:uppercase; */ 
+	transform:rotateX(360deg);
+	transition:1s;
+	font-size:10px;
+
+} 
+#tariff{
+ color:black;
+	font-family: 'Cookie';
+	border-radius:40%;
+	font-size:30px;
+
+	
+} 
+ #tariff:hover{
+ background-color:#ff8080;
+	font-family: 'Cookie';
+   width:300px;
+  cursor:pointer;
+	 /* text-transform:uppercase; */ 
+	transform:rotateX(360deg);
+	transition:1s;
+	font-size:10px;
+
+
+	
+} 
+ 
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  border-radius:200px;
+  text-align:center;
+  margin-top:10px;
+ 
+  
+}
+tbody{
+	
+}
+ .table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{
+	/* padding:10px; */
+	line-height:1.42857143;
+	vertical-align:top;
+	border-top:1px solid #ddd;
+	padding-left:0px
+	}
+tr td{
+	height:40px;
+	padding:10px;
+	 text-align: center; 
+}
+ td{ 
+ font-family: 'Cookie', cursive;
+  padding: 16px;
+  color:white;
+  text-align:center;
+  width :20px;
+  /* border: solid 1px #d9edf7;  */
+  text-align: center; 
+}
+td:hover{
+	color:#ff0000;
+	font-size:15px;
+	  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+	
+}
+#thead1{
+	font-family: 'Cookie', cursive;
+	text-align:center;,
+	text-align:center;
+	height:50px;
+ 	box-shadow:8px 8px 8px #ff8080; 
+     background: #efbc05; 
+    font-weight: 700;
+    font-color:#400040;
+   border:solid 10px #efbc05; 
+}
+
+ td, th  { 
+ text-align: center; 
+ font-family: 'Cookie', cursive;
+  padding: 0px; 
+ /*  border: solid 1px #d9edf7;  */
+}
